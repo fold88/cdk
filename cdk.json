@@ -1,3 +1,10 @@
 {
-    "app": "node bin/cdk-workshop.js"
+  "app": "node bin/cdk-workshop.js",
+  "context": {
+    "availability-zones:account=797352821123:region=us-west-2": [
+      "us-west-2a",
+      "us-west-2b",
+      "us-west-2c"
+    ]
+  }
 }
